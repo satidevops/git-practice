@@ -1,1 +1,1 @@
-#Adding some data to test Git pull request. Git Pull is combination of two methods which are Git fetch and Git Merge.
+#Adding some data to test Git pull request. Git Pull is a combination of two methods which are Git fetch and Git Merge.
