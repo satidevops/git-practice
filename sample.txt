@@ -17,5 +17,5 @@ git pull "REPO NAME"                                 ## Used to download the upd
 git fetch "origin"                                   ## Used to download updates from a remote repository, such as new branches, commits, or tags, but does not automatically merge them into your current branch.
 git merge                                            ## To merge the changes between feature branches to MAIN brach. Merging will not happen in linear way meanns latest code placed after the main brach commits.
 git rebase                                           ## To merge the changes between feature branches to MAIN brach. Merging will happen in linear way meanns latest code placed before the main brach commits.
-git config --global user.email "you@example.com"     ## Configuring the user email in your working area to authenticate the remote REPO. This is one time activity.
-git config  --global user.name "Your Name"           ## Configuring the username in your working area to authenticate the remote REPO. This is one time activity.
+git config --global user.email "you@example.com"     ## Configuring the user email in your working area to authenticate the remote GIT REPO. This is one time activity.
+git config  --global user.name "Your Name"           ## Configuring the username in your working area to authenticate the remote GIT REPO. This is one time activity.
