@@ -1,5 +1,5 @@
 #Adding some data to test Git pull request. Git Pull is a combination of two methods which are Git fetch and Git Merge.
-# Useful git commands for reference.
+#Useful git commands for reference.
 
 git init                                             ## To initialize the git working area in local.
 git status                                           ## To know the changes in the working area.
