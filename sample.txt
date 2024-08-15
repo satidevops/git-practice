@@ -15,7 +15,7 @@ git push --set-upstream origin <branch-name>.                   ## If your branc
 git push "REPO NAME"                                            ## Pushing the code the remote repo. Sends your committed changes from your local branch to the corresponding branch in a remote repository.
 git clone "REPO URL"                                            ## Used to download the REPO code as a file into the system using HTTP or HTTPS URL..
 git pull "REPO NAME"                                            ## Used to download the updates from remote repo and updates to local repo brach automatically. It’s a combination of two commands: git fetch (to retrieve the updates) and git merge.
-git fetch "origin"                                              ## Used to download updates from a remote repository, such as new branches, commits, or tags, but does not automatically merge them into your current branch.
+git fetch "origin" <branch name>                                ## Used to download updates from a remote repository, such as new branches, commits, or tags, but does not automatically merge them into your current branch.
 git log main..origin/main OR git diff main origin/main          ## To know the differnces in local compare to the origin file after fetch.
 git merge origin/main                                           ## To merge the changes between feature branches to MAIN brach. Merging will not happen in linear way meanns latest code placed after the main brach commits.
 git rebase                                                      ## To merge the changes between feature branches to MAIN brach. Merging will happen in linear way meanns latest code placed before the main brach commits.
