@@ -8,9 +8,9 @@ git add .                                                       ## To add the fi
 git commit -m "some comments to"                                ## Adding the files from staging area to Local Area.
 git branch dev OR git checkout -b uat                           ## To create the branch. 
 git checkout dev OR git switch dev                              ## to switch between branches.
-git remote add origin "REPO NAME"                               ## Adding the Remote to the local environment.
+git remote add origin "REPO NAME"                               ## Adding to the Remote from the local environment.
 git remote show origin OR git remote -v                         ## To show the origin of the GITHUB repo.
-git push -U origin main                                         ## To add the content to the Main/Specific branch in Repo.
+git push origin main                                            ## To add the content to the Main/Specific branch in Repo.
 git push --set-upstream origin <branch-name>.                   ## If your branch doesn’t exist on the remote repository, we can creating using this command.
 git push "REPO NAME"                                            ## Pushing the code the remote repo. Sends your committed changes from your local branch to the corresponding branch in a remote repository.
 git clone "REPO URL"                                            ## Used to download the REPO code as a file into the system using HTTP or HTTPS URL..
