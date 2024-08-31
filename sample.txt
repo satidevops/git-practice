@@ -21,4 +21,4 @@ git merge origin/main                                           ## To merge the 
 git rebase                                                      ## To merge the changes between feature branches to MAIN brach. Merging will happen in linear way meanns latest code placed before the main brach commits.
 git config --global user.email "you@example.com"                ## Configuring the user email in your working area to authenticate the remote REPO. This is one time activity.
 git config  --global user.name "Your Name"                      ## Configuring the username in your working area to authenticate the remote REPO. This is one time activity.
-
+git pull origin main --allow-unrelated-histories                ## Merging new repository and are trying to pull from an existing remote repository. 
